@@ -1,20 +1,24 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>HSMSE Key Club</title>
+    <title>HSMSE Key Club| Past Events</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/portfolio-item.css" rel="stylesheet">
-     <link href="css/main.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
     <link href="fonts/style.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -23,19 +27,12 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
 </head>
-    
-<body>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-</body>
-    
-    
+
 <body>
 
-  <!-- Navigation -->
+ <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
         <div class="navbar-header">
@@ -46,7 +43,7 @@
                     <span class="icon-bar"></span>
                 </button>
                
-      <a class="navbar-brand" href="index.html">  <!img src="img/seal.jpg" height=150% alt="">  HSMSE Key Club</a>
+      <a class="navbar-brand" href="index.html">  <img src="img/seal.jpg" height=150% alt="">  HSMSE Key Club</a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -69,43 +66,67 @@
         <!div class="form-group">
           <!input type="text" class="form-control" placeholder="Search">
         <!/div>
-        <!button type="submit" class="btn btn-default">Search<!/button>
+        <!button type="submit" class="btn btn-default"><!/button>
       <!/form>
-        
+      
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-</body>
-<body>
-  <!-- Page Content -->
-    <div class="container">
 
-        <!-- Portfolio Item Heading -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header"> Calendar </h1>
-            </div>
-        </div>  
-    
-<div class="col-md-12" align= "left">
    
-<iframe src="https://www.google.com/calendar/embed?showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=qm3r714e29cd0lhafvifuikiuc%40group.calendar.google.com&amp;color=%237A367A&amp;ctz=America%2FNew_York" style=" border-width:0 " width="90%" height="600" frameborder="0" scrolling="no"></iframe>
-    </div>
-    </div>
-    
-     <!-- Footer -->
-        <footer>
-            <hr>
-            <div class="row" align="center">
-                <div class="col-lg-12">
-                    <p>Rebecca Mikofsky * ramikofsky@gmail.com * 2015</p>
+<body>
+
+    <div id="wrapper">
+        
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                
+                <br>
+                <li><a href="events/Reoccurring.html"> Reoccurring Events </a></li>
+                <li class="dropdown">
+                <a href="#" class="dropdown-toggle"                    data-toggle="dropdown" role="button"                   aria-expanded="false"> 2014 - 2015                    <span class="caret"></span></a>
+           <ul class="dropdown-menu" role="menu">
+            <li><a href="jan2015.html">JANUARY</a></li>
+            <li><a href="feb2015.html">FEBRUARY</a></li>
+            <li><a href="mar2015.html">MARCH</a></li>
+            <li><a href="april15.html">APRIL</a></li>
+          </ul>
+                
+                
+                
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="jumbotron">
+                        <h1>Past Events - March 2015</h1>
+                        <hr>
+                        <h3>Leadership Training Conference</h3>
+                        <h5>March 27 - 29</h5>
+                        <p> New York District's annual meeting in Albany. Learn skills and meet new key clubbers.</p>
+                        <hr>
+                        
+                        
+                    </div>
                 </div>
             </div>
-            <!-- /.row -->
-            <img src="img/grey_line.jpg" height="25px">
-        </footer>
+        </div>
+        <!-- /#page-content-wrapper -->
 
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
 </body>
+
 </html>

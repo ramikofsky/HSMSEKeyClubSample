@@ -16,21 +16,24 @@ h1, h2, h3, h4, h5 ,h6, p{
     letter-spacing: 1px;
 }
 
-h1, h2{
+a:link, a:visted{
+    color:#00aeef;
+}
+
+
+
+h2, h3{
     color: black;
 }
 
-h1              { font-size: 2em; margin: .67em 0 }
-h2              { font-size: 1.5em; margin: .75em 0 }
-h3              { font-size: 1.17em; margin: .83em 0 }
+h1              { color: #003366; font-size: 2.5em; margin: .67em 0 }
+h2              { font-size: 1.75em; margin: .75em 0 }
+h3              { font-size: 1.5em; margin: .83em 0 }
 h5              { font-size: .83em; margin: 1.5em 0 }
 h6              { font-size: .75em; margin: 1.67em 0 }
 h1, h2, h3, h4,
 h5, h6          { font-weight: bolder }
 
-hr{
-    src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff');
-}
 
 
 .clearfix:before,  
@@ -93,8 +96,40 @@ hr{
 }
 
 
+.carousel-caption{
+    color: black;
+    font-size: 1em;
+    
+}
+
+.carousel-caption h1{
+    color: #00aeef;
+}
+.carouseltext{
+    color: grey;
+    font-size: 1.4em;
+}
+
+.jumbotron h1{
+    font-size: 2em;
+}
+
+.jumbotron h3{
+    color: #231f20;
+    
+}
 
 
+.navbar {
+    background-color: #003366;
+    outline-color: #231f20;
+    outline-width: medium;
+}
+
+.navbar li{
+    font-family: "Myriad Pro Bold";
+    color: green;
+}
 
 
 

@@ -69,7 +69,7 @@
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #999999;
+    color: #231f20;
 }
 
 .sidebar-nav li a:hover {
@@ -125,3 +125,4 @@
         margin-right: 0;
     }
 }
+

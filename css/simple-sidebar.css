@@ -52,7 +52,7 @@
 /* Sidebar Styles */
 
 .sidebar-nav {
-    float = "right";
+    text-align: middle;
     position: absolute;
     top: 0;
     width: 200px;

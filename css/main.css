@@ -11,7 +11,7 @@ body{
 }
 
 h1, h2, h3, h4, h5 ,h6, p{
-    color: #626262;
+   
     font-family: 'Myriad Pro Regular';
     letter-spacing: 1px;
 }
@@ -23,7 +23,7 @@ a:link, a:visted{
 
 
 h2, h3{
-    color: black;
+    color: #231f20;
 }
 
 h1              { color: #003366; font-size: 2.5em; margin: .67em 0 }
@@ -128,8 +128,16 @@ h5, h6          { font-weight: bolder }
 
 .navbar li{
     font-family: "Myriad Pro Bold";
-    color: green;
+    color: black;
 }
 
+.scribble{
+    float: middle;
+    
+}
 
+.foot{
+    color: #231f20;
+    font-weight: 600;
+}
 

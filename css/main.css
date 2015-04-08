@@ -10,10 +10,14 @@ body{
     margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5 ,h6{
+h1, h2, h3, h4, h5 ,h6, p{
     color: #626262;
     font-family: 'Myriad Pro Regular';
     letter-spacing: 1px;
+}
+
+h1, h2{
+    color: black;
 }
 
 h1              { font-size: 2em; margin: .67em 0 }
@@ -23,6 +27,11 @@ h5              { font-size: .83em; margin: 1.5em 0 }
 h6              { font-size: .75em; margin: 1.67em 0 }
 h1, h2, h3, h4,
 h5, h6          { font-weight: bolder }
+
+hr{
+    src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff');
+}
+
 
 .clearfix:before,  
 .clearfix:after {  

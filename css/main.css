@@ -110,6 +110,14 @@ h5, h6          { font-weight: bolder }
     font-size: 1.4em;
 }
 
+.carousel slide{
+    height: 50%;
+}
+
+.carousel slide img{
+    float: center;
+}
+
 .jumbotron h1{
     font-size: 2em;
 }
@@ -126,7 +134,7 @@ h5, h6          { font-weight: bolder }
     outline-width: medium;
 }
 
-.navbar li{
+.navbar li a{
     font-family: "Myriad Pro Bold";
     color: black;
 }
@@ -134,10 +142,17 @@ h5, h6          { font-weight: bolder }
 .scribble{
     float: middle;
     
+    
+    
 }
 
 .foot{
     color: #231f20;
     font-weight: 600;
+    font-size: 1em;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+  
+    vertical-align:  baseline;
 }
 
